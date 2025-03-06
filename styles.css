@@ -38,7 +38,7 @@ p {
   }
   @font-face {    
     font-family: 'BimboBallpoint';
-    src: url(''./heyericamay/slowskills/blob/main/Bimbo%20Ballpoint%20Trial.ttf') format('truetype');
+    src: url('./Users/heyericamay/slowskills/slowskills/Bimbo Ballpoint Trial.ttf') format('truetype');
 }
 .hem {
   font-family: "Kranky", serif;
