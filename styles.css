@@ -36,10 +36,10 @@ p {
     font-weight: 300;
     font-style: normal;
   }
-  @font-face {    
-    font-family: 'BimboBallpoint';
-    src: url('./Users/heyericamay/slowskills/slowskills/Bimbo%20Ballpoint%20Trial.ttf') format('truetype');
-}
+  @font-face {
+    font-family: "Bimbo-Ballpoint";
+    src: url(./Users/heyericamay/slowskills/slowskills/fonts/Bimbo&20Ballpoint&20Trial.ttf) format('truetype');
+  }
 .hem {
   font-family: "Kranky", serif;
   font-size:60px;
