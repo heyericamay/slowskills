@@ -8,7 +8,7 @@ h1 {
     font-family:"Bimbo-Ballpoint"; 
     text-align: center; 
     font-weight:700; 
-    color:#054776;
+    color:#081297;
     line-height:64px;
  }
 h2 {
@@ -79,4 +79,10 @@ p {
   80% {left: 80%; }
   90% {left:90%; }
   100% {left:100%; }
+}
+
+.logoimg {
+  width:1080px;
+  height:500px;
+  background:url(../Users/heyericamay/slowskills/slowskills/logo.png);
 }
