@@ -5,7 +5,7 @@ body {
 
 h1 { 
     font-size: 64px; 
-    font-family:"Bimbo-Ballpoint"; 
+    font-family:"Bimbo-Sharpie"; 
     text-align: center; 
     font-weight:700; 
     color:#081297;
@@ -37,8 +37,8 @@ p {
     font-style: normal;
   }
   @font-face {
-    font-family: "Bimbo-Ballpoint";
-    src: url(https://raw.githubusercontent.com/heyericamay/slowskills/refs/heads/main/fonts/Bimbo%20Ballpoint%20Trial.ttf) format('truetype');
+    font-family: "Bimbo-Sharpie";
+    src: url(https://raw.githubusercontent.com/heyericamay/slowskills/refs/heads/main/fonts/Bimbo%20Sharpie%20Trial.ttf) format('truetype');
     font-style: normal;
     font-weight: 400;
   }
