@@ -125,12 +125,10 @@ p {
   left:0%;
   animation: sewing linear 10s infinite;
 }
-
 .hem h1 span span {
   opacity:0;
   animation: stitch 0.5s linear infinite;
 }
-
 @keyframes sewing {
   0% { left: 0%; }
   10% { left:10%; }
@@ -144,7 +142,6 @@ p {
   90% {left:90%; }
   100% {left:100%; }
 }
-
 .logoimg {
   width:503px;
   height:184px;
@@ -155,13 +152,8 @@ p {
   height: 300px;
   margin-top:50px;
   background-color: #DADADA;
-
   transition: background-color 500ms;
-
 }
-
 .js-scroll.scrolled {
-
   background-color: aquamarine;
-
 }
