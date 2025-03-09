@@ -1,9 +1,73 @@
 body { 
-  background-color: #ef4d50;
-  border-color: #140f79;
-  background-image: linear-gradient(transparent 45%, #140f79 45% 55%, transparent 50%), linear-gradient(90deg, transparent 45%, #140f79 45% 55%, transparent 50%);
-  background-size: 12px 12px;
+  background-color: #05613D;
 }
+
+.header {
+  width:90%;
+  height:27.3vw;
+  background-color: #05613D;
+  border-radius:5px;
+  border-color: #91D4CC;
+  border:2px solid #91D4CC;
+  overflow:hidden;
+  margin-top:15px;
+  padding:10px 5px 10px 10px;
+  display:flex;
+  flex-flow:column, nowrap;
+}
+
+#maincell {
+  width:33%;
+  border:2px solid #91D4CC;
+}
+#maincell h1 {
+  color: #91D4CC;
+  font-size:5vw;
+  line-height:5vw;
+  font-family: "Source Code Pro", monospace;
+  text-align:left;
+  position:relative;
+  top:-3.8vw;
+  padding:0.4vw;
+}
+#maincell h2 {
+  font-family:figtree;
+  font-size:2vw;
+  font-weight:400;
+  position:relative;
+  top:-5.5vw;
+  text-align:center;
+  color: #91D4CC;
+  line-height:2vw;
+  padding:1vw;
+  margin:5px;
+  border:2px solid #91D4CC;
+  border-radius:100%;
+}
+
+#maincell h3 {
+  font-size:1vw;
+  font-family:figtree;
+  text-transform:uppercase;
+  font-weight:400;
+  text-align:right;
+  color:#91D4CC;
+  position:relative;
+  top:-4.5vw;
+  padding:4px;
+}
+
+#gencell {
+  width:33%;
+  background-image: linear-gradient(transparent 45%, #91D4CC 45% 55%, transparent 50%), linear-gradient(90deg, transparent 45%, #91D4CC 45% 55%, transparent 50%);
+  background-size:1.4vw 1.4vw;
+  background-position:3vw 3vw;
+  border-right:1px solid #91D4CC;
+  border-top:2px solid #91D4CC;
+  border-left:1px solid #91D4CC;
+  border-bottom:2px solid #91D4CC;  
+}
+
 
 h1 { 
     font-size: 64px; 
@@ -18,8 +82,6 @@ h2 {
     font-family: "Figtree", serif;
     line-height:48px;
 }
-
-h1 span { font-size: 92px; font-weight:400; }
 
 p { 
     font-size: 14px; 
@@ -82,8 +144,24 @@ p {
   90% {left:90%; }
   100% {left:100%; }
 }
+
 .logoimg {
   width:503px;
   height:184px;
   background:url(https://raw.githubusercontent.com/heyericamay/slowskills/refs/heads/main/slowskillslogo.png);
+}
+.js-scroll {
+  width: 100%;
+  height: 300px;
+  margin-top:50px;
+  background-color: #DADADA;
+
+  transition: background-color 500ms;
+
+}
+
+.js-scroll.scrolled {
+
+  background-color: aquamarine;
+
 }
