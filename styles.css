@@ -61,7 +61,7 @@ body {
   width:33%;
   background-image: linear-gradient(transparent 45%, #91D4CC 45% 55%, transparent 50%), linear-gradient(90deg, transparent 45%, #91D4CC 45% 55%, transparent 50%);
   background-size:1.4vw 1.4vw;
-  background-position:3vw 3vw;
+  background-position:3.2vw 3vw;
   border-right:1px solid #91D4CC;
   border-top:2px solid #91D4CC;
   border-left:1px solid #91D4CC;
@@ -106,54 +106,3 @@ p {
     font-style: normal;
     font-weight: 700;
   }
-.hem {
-  font-family: "Kranky", serif;
-  font-size:60px;
-  letter-spacing:15px;
-  color:#054776;
-  width:100%;
-  overflow:hidden;
-  z-index:1;
-}
-.hem #reveal {
-  background:#FFF8EB;
-  width:100%;
-  height:50px;
-  z-index:1000;
-  position:relative;
-  top:-50px;
-  left:0%;
-  animation: sewing linear 10s infinite;
-}
-.hem h1 span span {
-  opacity:0;
-  animation: stitch 0.5s linear infinite;
-}
-@keyframes sewing {
-  0% { left: 0%; }
-  10% { left:10%; }
-  20% {left: 20%; }
-  30% {left: 30%; }
-  40% {left: 40%; }
-  50% {left: 50%; }
-  60% {left: 60%; }
-  70% {left:70%; }
-  80% {left: 80%; }
-  90% {left:90%; }
-  100% {left:100%; }
-}
-.logoimg {
-  width:503px;
-  height:184px;
-  background:url(https://raw.githubusercontent.com/heyericamay/slowskills/refs/heads/main/slowskillslogo.png);
-}
-.js-scroll {
-  width: 100%;
-  height: 300px;
-  margin-top:50px;
-  background-color: #DADADA;
-  transition: background-color 500ms;
-}
-.js-scroll.scrolled {
-  background-color: aquamarine;
-}
