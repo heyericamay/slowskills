@@ -4,7 +4,7 @@ body {
 
 .header {
   width:90vw;
-  height:30vw;
+  height:30.5vw;
   background-color: #05613D;
   border-radius:5px;
   border-color: #91D4CC;
@@ -17,7 +17,7 @@ body {
 }
 
 #maincell {
-  width:30vw;
+  width:32vw;
   height:30vw;
   padding:0.1vw;
   border:2px solid #91D4CC;
@@ -60,7 +60,7 @@ body {
 }
 
 #gencell {
-  width:30vw;
+  width:32vw;
   height:30vw;
   padding:0.1vw;
   background-image: linear-gradient(transparent 45%, #91D4CC 45% 55%, transparent 50%), linear-gradient(90deg, transparent 45%, #91D4CC 45% 55%, transparent 50%);
