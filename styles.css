@@ -122,7 +122,9 @@ p {
   margin:auto;
   padding:0.5vw;
   background:white;
+  border-radius:5vw;
+  text-align:center;
 }
 .logobar img {
-  max-width:20vw;
+  max-width:10vw;
 }
