@@ -110,3 +110,7 @@ p {
     font-style: normal;
     font-weight: 700;
   }
+.purpose {
+  padding:0.4vw;
+  margin:auto;  
+}
