@@ -25,11 +25,11 @@ body {
 #maincell h1 {
   color: #91D4CC;
   font-size:5vw;
-  line-height:5vh;
+  line-height:5vw;
   font-family: "Source Code Pro", monospace;
   text-align:left;
   position:relative;
-  top:-3.8vh;
+  top:-3.8vw;
   padding:0.4vw;
 }
 #maincell h2 {
