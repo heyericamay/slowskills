@@ -117,13 +117,12 @@ p {
   margin:auto;  
 }
 
-#citylogo {
-  background:url(https://raw.githubusercontent.com/heyericamay/slowskills/refs/heads/main/TorontoLogo.gif);
-  background-size: auto;
-  width:15vw;
+.logobar {
+  width:80vw;
+  margin:auto;
+  padding:0.5vw;
+  background:white;
 }
-#livegreen {
-  background:url(https://raw.githubusercontent.com/heyericamay/slowskills/refs/heads/main/LiveGreenLogo.jpg);
-  background-size: auto;
-  width:15vw;
+.logobar img {
+  max-width:20vw;
 }
