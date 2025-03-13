@@ -124,8 +124,11 @@ p {
   background:white;
   border-radius:5vw;
   text-align:center;
+  display:flex;
+  flex-flow: nowrap;
+  align-content:center;
+  gap:5vw;
 }
 .logobar img {
-  max-width:10vw;
-  margin:auto;
+  max-height:5vw;
 }
