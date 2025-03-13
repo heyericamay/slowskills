@@ -4,7 +4,7 @@ body {
 
 .header {
   width:90vw;
-  height:30.5vw;
+  height:65vh;
   background-color: #05613D;
   border-radius:5px;
   border-color: #91D4CC;
@@ -18,18 +18,18 @@ body {
 
 #maincell {
   width:30vw;
-  height:30vw;
+  height:60vh;
   padding:0.1vw;
   border:2px solid #91D4CC;
 }
 #maincell h1 {
   color: #91D4CC;
   font-size:5vw;
-  line-height:5vw;
+  line-height:5vh;
   font-family: "Source Code Pro", monospace;
   text-align:left;
   position:relative;
-  top:-3.8vw;
+  top:-3.8vh;
   padding:0.4vw;
 }
 #maincell h2 {
@@ -61,11 +61,11 @@ body {
 
 #gencell {
   width:30vw;
-  height:30vw;
+  height:60vh;
   padding:0.1vw;
   background-image: linear-gradient(transparent 45%, #91D4CC 45% 55%, transparent 50%), linear-gradient(90deg, transparent 45%, #91D4CC 45% 55%, transparent 50%);
-  background-size:1.4vw 1.4vw;
-  background-position:2vw 0.8vw;
+  background-size:1.4vw 1.4vh;
+  background-position:2vw 0.8vh;
   border-right:1px solid #91D4CC;
   border-top:2px solid #91D4CC;
   border-left:1px solid #91D4CC;
@@ -82,9 +82,11 @@ h1 {
     line-height:64px;
  }
 h2 {
-    font-size: 48px;
     font-family: "Figtree", serif;
-    line-height:48px;
+    line-height:2vh;
+    font-size:2vw;
+    font-weight:400;
+
 }
 
 p { 
@@ -111,6 +113,7 @@ p {
     font-weight: 700;
   }
 .purpose {
+  width:90vw;
   padding:0.4vw;
   margin:auto;  
 }
