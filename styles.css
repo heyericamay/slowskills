@@ -44,7 +44,7 @@ body {
 
 #maincell {
   width:32vw;
-  height:30vw;
+  height:29vw;
   padding:0.1vw;
   border:2px solid var(--secondary);
 }
@@ -87,7 +87,7 @@ body {
 
 #gencell {
   width:31.8vw;
-  height:30vw;
+  height:29vw;
   padding:0.1vw;
   background-image: linear-gradient(transparent 45%, var(--secondary) 45% 55%, transparent 50%), linear-gradient(90deg, transparent 45%, #91D4CC 45% 55%, transparent 50%);
   background-size:1.4vw 1.4vw;
