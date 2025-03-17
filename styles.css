@@ -1,26 +1,21 @@
 :root {
   --main-bg:#05613D;
   --secondary:#91D4CC;
-  --highlight:rgba(224, 245, 66,1);
+  --highlight:#F0CF65;
 }
-/* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
-/** {
-  scrollbar-width: thin;
-  scrollbar-color: #05613D #91D4CC;
-}*/
 
 /* Chrome, Edge and Safari */
-*::-webkit-scrollbar {
+::-webkit-scrollbar {
   height: 15px;
   width: 15px;
 }
-*::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   border-radius: 0px;
-  background-color: var(--secondary);
-  border: 2px solid var(--secondary);
+  background-color: var(--main-bg);
+  border: 2px solid var(--main-bg);
 }
 
-*::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   border-radius: 0px;
   background-color:var(--highlight);
   border: 2px solid var(--secondary);
@@ -29,6 +24,9 @@
 
 body { 
   background-color:var(--main-bg);
+
+  scrollbar-width: thin;
+  scrollbar-color: #05613D #91D4CC;
 }
 
 .header {
