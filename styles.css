@@ -157,9 +157,10 @@ p {
 .purpose > p {
   width:40%;
   padding:1vw;
+  margin:1vw;
   font-family:figtree;
   font-weight:400;
-  font-size:5vh;
+  font-size:3vh;
   text-align: right;
   background:var(--secondary);
   color:var(--main-bg);
