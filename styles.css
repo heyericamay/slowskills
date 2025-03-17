@@ -148,14 +148,14 @@ p {
   background-position:0.5vw 0.5vw;
   display: flex;
   flex-flow: row nowrap;
-  justify-content:flex-end;   
+  justify-content:flex-end space-around;   
   border-right:1px solid var(--secondary);
   border-top:2px solid var(--secondary);
   border-left:1px solid var(--secondary);
   border-bottom:2px solid var(--secondary);    
 }
 .purpose > p {
-  width:50%;
+  width:40%;
   padding:1vw;
   font-family:figtree;
   font-weight:400;
