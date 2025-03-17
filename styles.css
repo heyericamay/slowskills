@@ -156,11 +156,8 @@ p {
 }
 .purpose > p {
   width:40%;
-  height:100vh;
-  position:relative;
-  top:0px;
-  right:0px;
   padding:1vw;
+  top:0;
   margin:1vw;
   font-family:figtree;
   font-weight:400;
@@ -168,7 +165,7 @@ p {
   text-align: right;
   background:var(--secondary);
   color:var(--main-bg);
-  align-self: flex-end;
+  align-self: right;
 }
 footer {
   background:#fff;
