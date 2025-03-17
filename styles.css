@@ -1,14 +1,20 @@
+:root {
+  --main-bg:#05613D;
+  --secondary:#91D4CC;
+}
+
+
 body { 
-  background-color: #05613D;
+  background-color:var(--main-bg);
 }
 
 .header {
   width:90vw;
   height:30.5vw;
-  background-color: #05613D;
+  background-color:var(--main-bg);
   border-radius:5px;
-  border-color: #91D4CC;
-  border:2px solid #91D4CC;
+  border-color: var(--secondary);
+  border:2px solid var(--secondary);
   overflow:hidden;
   margin:4vw auto;
   padding:1vw;
@@ -20,10 +26,10 @@ body {
   width:32vw;
   height:30vw;
   padding:0.1vw;
-  border:2px solid #91D4CC;
+  border:2px solid var(--secondary);
 }
 #maincell h1 {
-  color: #91D4CC;
+  color:var(--secondary);
   font-size:5vw;
   line-height:5vw;
   font-family: "Source Code Pro", monospace;
@@ -39,11 +45,11 @@ body {
   position:relative;
   top:-5.5vw;
   text-align:center;
-  color: #91D4CC;
+  color: var(--secondary);
   line-height:2vw;
   padding:1vw;
   margin:5px;
-  border:2px solid #91D4CC;
+  border:2px solid var(--secondary);
   border-radius:100%;
 }
 
@@ -53,7 +59,7 @@ body {
   text-transform:uppercase;
   font-weight:400;
   text-align:right;
-  color:#91D4CC;
+  color:var(--secondary);
   position:relative;
   top:-4.5vw;
   padding:4px;
@@ -63,13 +69,13 @@ body {
   width:31.9vw;
   height:30vw;
   padding:0.1vw;
-  background-image: linear-gradient(transparent 45%, #91D4CC 45% 55%, transparent 50%), linear-gradient(90deg, transparent 45%, #91D4CC 45% 55%, transparent 50%);
+  background-image: linear-gradient(transparent 45%, var(--secondary) 45% 55%, transparent 50%), linear-gradient(90deg, transparent 45%, #91D4CC 45% 55%, transparent 50%);
   background-size:1.4vw 1.4vw;
   background-position:2vw 0.85vw;
-  border-right:1px solid #91D4CC;
-  border-top:2px solid #91D4CC;
-  border-left:1px solid #91D4CC;
-  border-bottom:2px solid #91D4CC;  
+  border-right:1px solid var(--secondary);
+  border-top:2px solid var(--secondary);
+  border-left:1px solid var(--secondary);
+  border-bottom:2px solid var(--secondary);  
 }
 
 
@@ -78,14 +84,14 @@ h1 {
     font-family:"Source Code Pro", monospace; 
     text-align: center; 
     font-weight:700; 
-    color:#91D4CC;
+    color:var(--secondary);
  }
 h2 {
     font-family: "Figtree", serif;
     line-height:3vw;
     font-size:3vw;
     font-weight:400;
-    color: #91D4CC;
+    color: var(--secondary);
 }
 
 p { 
