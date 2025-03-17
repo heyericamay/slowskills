@@ -24,7 +24,6 @@
 
 body { 
   background-color:var(--main-bg);
-
   scrollbar-width: thin;
   scrollbar-color: #05613D #91D4CC;
 }
@@ -87,12 +86,12 @@ body {
 }
 
 #gencell {
-  width:31.9vw;
+  width:31.8vw;
   height:30vw;
   padding:0.1vw;
   background-image: linear-gradient(transparent 45%, var(--secondary) 45% 55%, transparent 50%), linear-gradient(90deg, transparent 45%, #91D4CC 45% 55%, transparent 50%);
   background-size:1.4vw 1.4vw;
-  background-position:2vw 0.85vw;
+  background-position:1.8vw 0.85vw;
   border-right:1px solid var(--secondary);
   border-top:2px solid var(--secondary);
   border-left:1px solid var(--secondary);
