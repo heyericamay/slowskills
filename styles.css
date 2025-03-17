@@ -148,7 +148,7 @@ p {
   background-position:0.5vw 0.5vw;
   display: flex;
   flex-flow: row nowrap;
-  justify-content:flex-end space-around;   
+  justify-content:space-around;   
   border-right:1px solid var(--secondary);
   border-top:2px solid var(--secondary);
   border-left:1px solid var(--secondary);
@@ -164,6 +164,7 @@ p {
   text-align: right;
   background:var(--secondary);
   color:var(--main-bg);
+  align-self: flex-end;
 }
 footer {
   background:#fff;
