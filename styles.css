@@ -37,7 +37,7 @@ body {
   border-color: var(--secondary);
   border:2px solid var(--secondary);
   overflow:hidden;
-  margin:auto;
+  margin:10vw auto;
   padding:1vw;
   display:flex;
   flex-flow:column, nowrap;
@@ -64,7 +64,7 @@ body {
   font-size:2vw;
   font-weight:400;
   position:relative;
-  top:-5.5vw;
+  top:-5vw;
   text-align:center;
   color: var(--secondary);
   line-height:2vw;
