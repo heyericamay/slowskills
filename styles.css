@@ -182,7 +182,8 @@ footer img {
 /*workshops page*/
 
 .sessions {
-  display:grid;
+  width:90vw;
+  display:inline-grid;
   gap:0.5vw;
   align-content: center;
 }
@@ -193,4 +194,10 @@ footer img {
   border: 2px solid var(--secondary);
   padding:1vw;
   border-radius:1vw;
+}
+
+#card-front {
+  width:18vw;
+  height:48vh;
+  background:linear-gradient(0deg, rgba(145, 212, 204),rgba(145, 212, 204, 0.3)), url(https://picsum.photos/id/1043/800/600);
 }
