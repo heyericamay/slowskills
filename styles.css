@@ -202,12 +202,12 @@ footer img {
   transition: 0.3s;
   font-family: 'Source Code Pro', monospace;
   font-size:3em;
-  color:var(--main-bg);
+  color:var(--secondary);
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: var(--highlight);
 }
 
 /* Create an active/current tablink class */
