@@ -193,6 +193,7 @@ footer img {
   background:var(--main-bg);
   color:var(--secondary);
   padding:4px;
+  border-radius:5px;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -214,6 +215,7 @@ footer img {
 .tab button:hover {
   background-color: var(--highlight);
   color:var(--main-bg);
+
 }
 
 /* Create an active/current tablink class */
@@ -241,4 +243,5 @@ footer img {
   background-image: linear-gradient(transparent 45%, var(--secondary) 45% 55%, transparent 50%), linear-gradient(90deg, transparent 45%, #91D4CC 45% 55%, transparent 50%);
   background-size:1.4vw 1.4vw;
   background-position:0.7vw 0.7vw;
+  border:2px solid var(--secondary);
 }
