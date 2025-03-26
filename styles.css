@@ -191,22 +191,22 @@ footer img {
   white-space: nowrap;
   background:var(--main-bg);
   color:var(--secondary);
-  padding:4px;
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
   background-color: inherit;
   float: left;
-  border: 2px dashed var(--secondary);
+  border: 2px solid var(--secondary);
+  border-bottom:none;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
   font-family: 'Source Code Pro', monospace;
+  font-weight:400;
   font-size:1em;
   color:var(--secondary);
-  margin:0px 2px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -223,12 +223,13 @@ footer img {
   background-color: var(--secondary);
   color:var(--main-bg);
   border:2px solid var(--main-bg);
+  border-bottom:none;
 }
 
 /* Style the tab content */
 .tabcontent {
   display: none;
-  padding: 6px 12px;
+  padding: 4px 8px;
   border: 2px solid var(--secondary);
   border-top: none;
   background-color: var(--secondary);
@@ -237,9 +238,25 @@ footer img {
   z-index:1000;
 } 
 
+#desc {
+  width:45%;
+  margin:auto;
+  text-align:left;
+  font-size:14px;
+  display:inline;
+  float:left;
+}
+
+#deet {
+  width:30%;
+  margin:auto;
+  display:inline;
+  float:right;
+}
+
 .placeholder {
   z-index:1;
-  height:64vh;
+  height:60vh;
   background-image: linear-gradient(transparent 45%, var(--secondary) 45% 55%, transparent 50%), linear-gradient(90deg, transparent 45%, #91D4CC 45% 55%, transparent 50%);
   background-size:1.4vw 1.4vw;
   background-position:0.7vw 0.7vw;
