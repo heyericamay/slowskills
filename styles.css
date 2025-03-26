@@ -236,5 +236,5 @@ footer img {
 .placeholder {
   z-index:1;
   height:64vh;
-  background:linear-gradient(transparent 45%, var(--secondary) 45% 55%, transparent 50%), linear-gradient(90deg, transparent 45%, #91D4CC 45% 55%, transparent 50%);
+  background:linear-gradient(transparent 45%, var(--secondary) 45% 55%, transparent 50%);
 }
