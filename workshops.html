@@ -13,11 +13,25 @@
 <body>
     <h1>Our Workshops</h1>
 
-<section class="sessions">
-  <div id="card"><div id="card-front" onclick="myFunction()">Handsewing Basics</div> <div id="card-back"><button onclick="myFunction()">x Handsewing</button></div></div>
-  <div id="card"><div id="card-front" onclick="myFunction()">Sewing Machine Basics</div> <div id="card-back"><button onclick="myFunction()">x sewing machine</button></div></div>
-  <div id="card"><div id="card-front" onclick="myFunction()">Embroidery Basics</div> <div id="card-back"><button onclick="myFunction()">x embroidery</button></div></div>
-</section>
+    <div class="tab">
+      <button class="tablinks" onclick="openSession(event, 'Handsewing')">Handsewing Basics</button>
+      <button class="tablinks" onclick="openSession(event, 'Machine')">Sewing Machine Basics</button>
+      <button class="tablinks" onclick="openSession(event, 'Embroidery')">Embroidery Basics</button>
+    </div>
+    <div id="Handsewing" class="tabcontent">
+      <h3>Handsewing Basics</h3>
+      <p>about these sessions</p>
+    </div>
+    
+    <div id="Machine" class="tabcontent">
+      <h3>Sewing Machine Basics</h3>
+      <p>about these sessions</p>
+    </div>
+    
+    <div id="Embroidery" class="tabcontent">
+      <h3>Embroidery Basics</h3>
+      <p>about these sessions</p>
+    </div>
 
     <form name="slowsform1" method="POST" data-netlify="true">
       <p>
