@@ -193,7 +193,7 @@ footer img {
   background:var(--main-bg);
   color:var(--secondary);
   padding:4px;
-  border-radius:5px;
+  border-radius:5px 5px 0px 0px;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -244,4 +244,5 @@ footer img {
   background-size:1.4vw 1.4vw;
   background-position:0.7vw 0.7vw;
   border:2px solid var(--secondary);
+  border-radius:0px 0px 5px 5px;
 }
