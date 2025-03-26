@@ -211,4 +211,6 @@ footer img {
   padding:1vw;
   margin:auto;
   z-index:1000;
+  background-color: var(--secondary);
+  top:-50vh;
 }
