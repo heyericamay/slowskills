@@ -252,11 +252,15 @@ footer img {
   margin:auto;
   display:inline;
   float:right;
+  padding:4px;
+  color:var(--main-bg);
+  font-size:1em;
+  border:2px solid var(--main-bg);
 }
 
 .placeholder {
   z-index:1;
-  height:60vh;
+  height:70vh;
   background-image: linear-gradient(transparent 45%, var(--secondary) 45% 55%, transparent 50%), linear-gradient(90deg, transparent 45%, #91D4CC 45% 55%, transparent 50%);
   background-size:1.4vw 1.4vw;
   background-position:0.7vw 0.7vw;
