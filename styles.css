@@ -211,13 +211,13 @@ footer img {
 /* Change background color of buttons on hover */
 .tab button:hover {
   background-color: var(--highlight);
-  color:var(--main-bg)
+  color:var(--main-bg);
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
   background-color: var(--secondary);
-  color:var(--main-bg)
+  color:var(--main-bg);
   border:2px solid var(var(--main-bg));
 }
 
