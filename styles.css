@@ -187,6 +187,7 @@ footer img {
   gap:0.5vw;
   align-content: center;
   grid-template-columns: 1fr 1fr 1fr;
+  margin:auto;
 }
 
 #card {
