@@ -189,11 +189,9 @@ footer img {
   overflow-y: hidden;
   overflow-x:auto;
   white-space: nowrap;
-  border: 2px solid var(--secondary);
   background:var(--main-bg);
   color:var(--secondary);
   padding:4px;
-  border-radius:5px 5px 0px 0px;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -209,6 +207,8 @@ footer img {
   font-size:1em;
   color:var(--secondary);
   margin:0px 2px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 /* Change background color of buttons on hover */
