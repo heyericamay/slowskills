@@ -203,3 +203,12 @@ footer img {
   height:48vh;
   background:linear-gradient(0deg, rgba(145, 212, 204),rgba(145, 212, 204, 0.3)), url(https://picsum.photos/id/1043/800/600);
 }
+
+#card-back {
+  display:none;
+  position:absolute;
+  width:89vw;
+  padding:1vw;
+  margin:auto;
+  z-index:1000;
+}
