@@ -178,3 +178,18 @@ footer {
 footer img {
   max-height:5vw;
 }
+
+/*workshops page*/
+
+.sessions {
+  display:flex;
+  flex-flow: row wrap;
+}
+
+#card {
+  width:28vw;
+  height:33vh;
+  border: 2px solid var(--secondary);
+  padding:1vw;
+  border-radius:2vw;
+}
