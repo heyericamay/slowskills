@@ -182,14 +182,15 @@ footer img {
 /*workshops page*/
 
 .sessions {
-  display:flex;
-  flex-flow: row wrap;
+  display:grid;
+  gap:0.5vw;
+  align-content: center;
 }
 
 #card {
-  width:28vw;
-  height:33vh;
+  width:18vw;
+  height:48vh;
   border: 2px solid var(--secondary);
   padding:1vw;
-  border-radius:2vw;
+  border-radius:1vw;
 }
