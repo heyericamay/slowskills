@@ -208,7 +208,7 @@ footer img {
   font-family: 'Source Code Pro', monospace;
   font-size:1em;
   color:var(--secondary);
-  margin:2px;
+  margin:0px 2px;
 }
 
 /* Change background color of buttons on hover */
