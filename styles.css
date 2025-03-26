@@ -111,6 +111,10 @@ h2 {
     font-weight:400;
     color: var(--secondary);
 }
+h3{
+  font-family:"figtree",serif; 
+  font-size:2em;
+}
 
 p { 
     font-size: 14px; 
@@ -180,46 +184,11 @@ footer img {
 }
 
 /*workshops page*/
-
-.sessions {
-  width:90vw;
-  display:inline-grid;
-  gap:0.5vw;
-  align-content: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin:auto;
-}
-
-#card {
-  width:18vw;
-  height:48vh;
-  border: 2px solid var(--secondary);
-  padding:1vw;
-  border-radius:1vw;
-}
-
-#card-front {
-  width:18vw;
-  height:48vh;
-  background:linear-gradient(0deg, rgba(145, 212, 204),rgba(145, 212, 204, 0.3)), url(https://picsum.photos/id/1043/800/600);
-}
-
-#card-back {
-  display:none;
-  position:absolute;
-  width:89vw;
-  padding:1vw;
-  margin:auto;
-  z-index:1000;
-  background-color: var(--secondary);
-  top:0vh;
-}
-
  /* Style the tab */
  .tab {
   overflow: hidden;
   border: 2px solid var(--secondary);
-  background:linear-gradient(0deg, rgba(145, 212, 204),rgba(145, 212, 204, 0.3));
+  background:var(--main-bg);
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -231,6 +200,9 @@ footer img {
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
+  font-family: 'Source Code Pro', monospace;
+  font-size:14em;
+  color:var(--main-bg);
 }
 
 /* Change background color of buttons on hover */
@@ -240,7 +212,7 @@ footer img {
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  background-color: var(--secondary);
 }
 
 /* Style the tab content */
@@ -249,4 +221,5 @@ footer img {
   padding: 6px 12px;
   border: 2px solid var(--secondary);
   border-top: none;
+  background-color: var(--secondary);
 } 
