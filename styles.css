@@ -186,9 +186,12 @@ footer img {
 /*workshops page*/
  /* Style the tab */
  .tab {
-  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x:auto;
+  white-space: nowrap;
   border: 2px solid var(--secondary);
   background:var(--main-bg);
+  color:var(--secondary)
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -201,7 +204,7 @@ footer img {
   padding: 14px 16px;
   transition: 0.3s;
   font-family: 'Source Code Pro', monospace;
-  font-size:3em;
+  font-size:1em;
   color:var(--secondary);
 }
 
