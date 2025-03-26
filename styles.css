@@ -114,10 +114,11 @@ h2 {
 h3{
   font-family:"figtree",serif; 
   font-size:2em;
+  color:var(--main-bg);
 }
 
 p { 
-    font-size: 14px; 
+    font-size: 1em; 
     font-family: Arial, Helvetica, sans-serif; 
     text-align: left;
 }
@@ -260,7 +261,7 @@ footer img {
 
 .placeholder {
   z-index:1;
-  height:70vh;
+  height:60vh;
   background-image: linear-gradient(transparent 45%, var(--secondary) 45% 55%, transparent 50%), linear-gradient(90deg, transparent 45%, #91D4CC 45% 55%, transparent 50%);
   background-size:1.4vw 1.4vw;
   background-position:0.7vw 0.7vw;
