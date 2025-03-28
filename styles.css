@@ -274,8 +274,8 @@ footer img {
   border:2px solid var(--secondary);
   border-radius:0px 0px 5px 5px;
   text-align:center;
-  position:absolute;
-  top:30vh;
+  position:relative;
+  top:-30vh;
 }
 
 
