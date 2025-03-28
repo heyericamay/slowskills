@@ -16,6 +16,7 @@ function openSession(evt, sessionName) {
   
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(sessionName).style.display = "block";
+    document.getElementByClassName("placeholder").style.display = "none";
     evt.currentTarget.className += " active";
   } 
 
