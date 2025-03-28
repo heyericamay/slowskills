@@ -222,15 +222,14 @@ footer img {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: var(--highlight);
   color:var(--main-bg);
-
+  border:2px solid var(--highlight);
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: var(--highlight);
   color:var(--main-bg);
+  border:2px solid var(--highlight);
 }
 
 /* Style the tab content */
@@ -241,8 +240,6 @@ footer img {
   height:60vh;
   padding:2vw;
   z-index:1000;
-  box-shadow:-2px 2px 0px 0px var(--highlight);
-  border-right:2px solid var(--secondary);
   margin-bottom:50px;
 } 
 
@@ -275,6 +272,8 @@ footer img {
   background-position:0.7vw 0.7vw;
   border:2px solid var(--secondary);
   border-radius:0px 0px 5px 5px;
+  text-align:center;
+  top:-60vh;
 }
 
 
