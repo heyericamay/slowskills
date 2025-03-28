@@ -272,7 +272,8 @@ footer img {
   border:2px solid var(--secondary);
   border-radius:0px 0px 5px 5px;
   text-align:center;
-  top:-60vh;
+  position:fixed;
+  top:30vh;
 }
 
 
