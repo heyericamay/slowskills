@@ -197,28 +197,27 @@ footer img {
  /* Style the tab */
  .tab {
   display:flex;
-  flex-flow:row wrap;;
+  flex-flow:row wrap; 
   color:var(--secondary);
   z-index:2000;
 }
 
-.tab > span {
-  padding:5px 0px;
-  border:2px 0px solid var(--highlight);
-}
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
   background-color: inherit;
+  border:none;
+  border-radius: 100%;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 4px 6px;
   transition: 0.3s;
   font-family: 'Source Code Pro', monospace;
   font-weight:400;
   font-size:1em;
   color:var(--secondary);
   margin:10px;
+
 }
 
 /* Change background color of buttons on hover */
@@ -230,10 +229,8 @@ footer img {
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: var(--secondary);
+  background-color: var(--highlight);
   color:var(--main-bg);
-  border:2px solid var(--highlight);
-  border-bottom:none;
 }
 
 /* Style the tab content */
