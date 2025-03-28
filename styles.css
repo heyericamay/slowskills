@@ -271,7 +271,14 @@ footer img {
 
 #generally > h3 {
   color:var(--highlight);
-
+  font-weight:400;
+  text-align:center;
+}
+#generally > p {
+  font-weight:1em;
+  padding:4px;
+  border:2px solid var(--highlight);
+  color:var(--secondary);
 }
 
 .form {
