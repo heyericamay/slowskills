@@ -117,6 +117,14 @@ h3{
   color:var(--main-bg);
 }
 
+h6 {
+  font-size:0.5em;
+  text-transform:uppercase;
+  font-weight:100;
+  font-family:"figtree", sans-serif;
+  color:var(--main-bg)
+}
+
 p { 
     font-size: 1em; 
     font-family: Arial, Helvetica, sans-serif; 
@@ -233,8 +241,6 @@ footer img {
 .tabcontent {
   display: none;
   padding: 4px 8px;
-  border: 2px solid var(--secondary);
-  border-top: 2px solid var(--highlight);
   background-color: var(--secondary);
   height:60vh;
   padding:2vw;
@@ -271,4 +277,11 @@ footer img {
   background-position:0.7vw 0.7vw;
   border:2px solid var(--secondary);
   border-radius:0px 0px 5px 5px;
+}
+
+
+
+.form {
+  margin:50px;
+  background:white;
 }
