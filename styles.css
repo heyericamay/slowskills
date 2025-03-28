@@ -118,11 +118,11 @@ h3{
 }
 
 h6 {
-  font-size:0.5em;
+  font-size:0.8em;
   text-transform:uppercase;
-  font-weight:400;
+  font-weight:700;
   font-family:"figtree", sans-serif;
-  color:var(--main-bg)
+  color:var(--secondary)
 }
 
 p { 
