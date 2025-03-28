@@ -114,7 +114,6 @@ h2 {
 h3{
   font-family:"figtree",serif; 
   font-size:2em;
-  color:var(--main-bg);
 }
 
 h6 {
@@ -270,7 +269,9 @@ footer img {
   width:80vw;
 }
 
-
+.generally > h3 {
+  color:var(--highlight);
+}
 
 .form {
   margin:50px;
