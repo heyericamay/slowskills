@@ -211,7 +211,7 @@ footer img {
   color:var(--secondary);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  margin:0px 2px;
+  margin-right:2px;
 }
 
 /* Change background color of buttons on hover */
@@ -260,7 +260,7 @@ footer img {
   background:var(--main-bg);
   font-size:1em;
   border:2px solid var(--main-bg);
-  box-shadow: 2px 2px 0px var(--highlight);
+  box-shadow: 4px 4px 0px 0px var(--highlight);
 }
 
 .placeholder {
