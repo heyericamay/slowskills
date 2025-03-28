@@ -210,7 +210,7 @@ footer img {
   border-radius: 100%;
   outline: none;
   cursor: pointer;
-  padding: 6px;
+  padding: 6px 12px;
   transition: 0.3s;
   font-family: 'Source Code Pro', monospace;
   font-weight:400;
@@ -222,13 +222,14 @@ footer img {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  color:var(--main-bg);
+  color:var(--highlight);
   border:2px solid var(--highlight);
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
   border:2px solid var(--highlight);
+  color:var(--highlight);
 }
 
 /* Style the tab content */
