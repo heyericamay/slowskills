@@ -119,6 +119,7 @@ h3{
 
 h6 {
   font-size:0.8em;
+  line-height:0.8em;
   text-transform:uppercase;
   font-weight:700;
   font-family:"figtree", sans-serif;
@@ -246,6 +247,7 @@ footer img {
   padding:2vw;
   z-index:1000;
   box-shadow:-2px 2px 0px 0px var(--highlight);
+  border-right:2px solid var(--secondary);
 } 
 
 #desc {
@@ -265,7 +267,6 @@ footer img {
   padding:4px;
   color:var(--secondary);
   background:var(--main-bg);
-  font-size:1em;
   border:2px solid var(--main-bg);
   box-shadow: 4px 4px 0px 0px var(--highlight);
 }
