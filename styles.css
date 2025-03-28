@@ -60,7 +60,7 @@ body {
   padding:0.4vw;
 }
 #maincell h2 {
-  font-family:figtree;
+  font-family:"Figtree", serif;
   font-size:2vw;
   font-weight:400;
   position:relative;
@@ -76,7 +76,7 @@ body {
 
 #maincell h3 {
   font-size:1vw;
-  font-family:figtree;
+  font-family:"Figtree", serif;
   text-transform:uppercase;
   font-weight:400;
   text-align:right;
@@ -128,7 +128,7 @@ h6 {
 
 p { 
     font-size: 1em; 
-    font-family: "Figtree",serif; 
+    font-family:"Figtree", serif;
     text-align: left;
 }
 
@@ -247,9 +247,10 @@ footer img {
   width:45%;
   margin:auto;
   text-align:left;
-  font-size:14px;
+  font-size:1em;
   display:inline;
   float:left;
+  font-family:"Figtree", serif;
 }
 
 #deet {
@@ -264,19 +265,9 @@ footer img {
   box-shadow: 4px 4px 0px 0px var(--highlight);
 }
 
-.placeholder {
-  z-index:1;
-  height:60vh;
+.generally {
+  margin:50px auto;
   width:80vw;
-  margin:auto;
-  background-image: linear-gradient(transparent 45%, var(--secondary) 45% 55%, transparent 50%), linear-gradient(90deg, transparent 45%, #91D4CC 45% 55%, transparent 50%);
-  background-size:1.4vw 1.4vw;
-  background-position:0.7vw 0.7vw;
-  border:2px solid var(--secondary);
-  border-radius:0px 0px 5px 5px;
-  text-align:center;
-  position:relative;
-  top:-30vh;
 }
 
 
