@@ -245,6 +245,7 @@ footer img {
   height:60vh;
   padding:2vw;
   z-index:1000;
+  box-shadow:2px -2px 0px 0px var(--highlight);
 } 
 
 #desc {
