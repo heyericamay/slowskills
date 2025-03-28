@@ -18,3 +18,6 @@ function openSession(evt, sessionName) {
     document.getElementById(sessionName).style.display = "block";
     evt.currentTarget.className += " active";
   } 
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
