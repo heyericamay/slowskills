@@ -307,7 +307,8 @@ footer img {
   font-weight:400;
   font-size:1em;
   color:var(--secondary);
-  margin:10px;
+  margin:10px auto;
+  text-shadow: 1px 1px var(--main-bg);
 }
 
 .form button:hover {
@@ -320,7 +321,7 @@ footer img {
   color:var(--highlight);
 }
 
-form input {
+form input, select, textarea {
   border:2px solid var(--highlight);
   margin:0px 5px;
   padding:5px;
