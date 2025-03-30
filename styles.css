@@ -289,6 +289,24 @@ footer img {
 .form {
   margin:50px;
   background:white;
+  padding:10px;
+  font-family: "Figtree", serif;
+  font-size:1em;
+  font-weight:700;
+}
+
+.form button {
+  font-family: 'Source Code Pro', monospace;
+  font-weight:400;
+  font-size:1em;
+  border:2px solid var(--highlight);
+  color:var(--highlight);
+  border-radius: 100%;
+  padding: 6px 12px;
+  margin:10px auto;
+  text-align:center;
+  display:block;
+  background:var(--main-bg);
 }
 
 .boule {
@@ -302,4 +320,6 @@ footer img {
   float:right;
   margin:10px auto;
   text-align:center;
+  display:block;
+  background:var(--main-bg);
 }
