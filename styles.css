@@ -296,17 +296,35 @@ footer img {
 }
 
 .form button {
+  background-color: inherit;
+  border:none;
+  border-radius: 100%;
+  outline: none;
+  cursor: pointer;
+  padding: 6px 12px;
+  transition: 0.3s;
   font-family: 'Source Code Pro', monospace;
   font-weight:400;
   font-size:1em;
+  color:var(--secondary);
+  margin:10px;
+}
+
+.form button:hover {
+  color:var(--highlight);
+  border:2px solid var(--highlight);
+}
+
+.form button.active {
   border:2px solid var(--highlight);
   color:var(--highlight);
-  border-radius: 100%;
-  padding: 6px 12px;
-  margin:10px auto;
-  text-align:center;
-  display:block;
-  background:var(--main-bg);
+}
+
+form input {
+  border:2px solid var(--highlight);
+  margin:0px 5px;
+  padding:5px;
+  font-family:'Source Code Pro', monospace;
 }
 
 .boule {
