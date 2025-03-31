@@ -272,26 +272,21 @@ footer img {
 #generally {
   margin:50px auto;
   width:80vw;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  gap: 8px;
+  display: flex;
+  flex-flow:row wrap;
 }
 
 #generally > h3 {
   color:var(--highlight);
   font-weight:400;
-  text-align:center;
-  grid-column: span 5 / span 5;
+  width:100%;
 }
 #generally > p {
   font-weight:1em;
   padding:4px;
   border:2px solid var(--highlight);
   color:var(--secondary);
-  grid-column: span 2 / span 2;
-    grid-row: span 4 / span 4;
-    grid-row-start: 2;
+  width:40vw;
 }
 
 .form {
@@ -301,23 +296,22 @@ footer img {
   font-family: "Figtree", serif;
   font-size:1em;
   font-weight:700;
-  grid-column: span 2 / span 2;
-    grid-row: span 4 / span 4;
-    grid-column-start: 4;
-    grid-row-start: 2;
+  width:35vw;
 }
 
 .form button {
   background-color: inherit;
-  border:none;
+  border:2px solid transparent;
   border-radius: 100%;
   outline: none;
   cursor: pointer;
   padding: 6px 12px;
   transition: 0.3s;
   font-family: 'Source Code Pro', monospace;
-  font-weight:400;
+  font-weight:700;
   font-size:1em;
+  text-align: center;
+  text-transform:uppercase;
   color:var(--secondary);
   margin:10px auto;
   text-shadow: 1px 1px var(--main-bg);
