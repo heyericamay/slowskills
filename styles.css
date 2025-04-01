@@ -259,16 +259,15 @@ footer img {
   font-size:1em;
   font-family:"Figtree", serif;
   padding:15px;
+  border:2px solid var(--main-bg);
 }
 
 #deet {
   width:30%;
   margin:20px;
-  padding:4px;
-  color:var(--secondary);
-  background:var(--main-bg);
+  padding:15px;
   border:2px solid var(--main-bg);
-  box-shadow: 4px 4px 0px 0px var(--highlight);
+  color:var(--secondary);
 }
 
 #generally {
@@ -283,7 +282,7 @@ footer img {
   font-weight:400;
   text-align:left;
 }
-#generally > p {
+.form p {
   font-weight:1em;
   padding:4px;
   border:2px solid var(--highlight);
@@ -292,13 +291,14 @@ footer img {
 }
 
 .form {
-  margin:50px;
+  margin:auto;
   background:white;
   padding:10px;
   font-family: "Figtree", serif;
   font-size:1em;
   font-weight:700;
   width:35vw;
+  border:2px solid var(--highlight);
 }
 
 .form button {
