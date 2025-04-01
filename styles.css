@@ -236,7 +236,7 @@ footer img {
   display: none;
   padding: 4px 8px;
   background-color: var(--secondary);
-  height:60vh;
+  min-height:60vh;
   padding:2vw;
   z-index:1000 !important;
   margin-bottom:50px;
@@ -246,13 +246,17 @@ footer img {
   color:var(--main-bg);
 }
 
+.course {
+  display:flex;
+  flex-flow: row wrap;
+  width:80vw;
+}
+
 #desc {
   width:45%;
   margin:auto;
   text-align:left;
   font-size:1em;
-  display:inline;
-  float:left;
   font-family:"Figtree", serif;
   padding:15px;
 }
@@ -260,8 +264,6 @@ footer img {
 #deet {
   width:30%;
   margin:20px;
-  display:inline;
-  float:right;
   padding:4px;
   color:var(--secondary);
   background:var(--main-bg);
