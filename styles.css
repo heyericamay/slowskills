@@ -247,7 +247,10 @@ footer img {
 }
 .tabcontent #thumb {
   width:20vw;
-  height:50vw;
+  height:40vw;
+  background-position: center;
+  background-size: contain;
+  float:left;
 }
 
 .course {
