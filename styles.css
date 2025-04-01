@@ -282,13 +282,6 @@ footer img {
   font-weight:400;
   text-align:left;
 }
-.form p {
-  font-weight:1em;
-  padding:4px;
-  border:2px solid var(--highlight);
-  color:var(--secondary);
-  width:40vw;
-}
 
 .form {
   margin:auto;
@@ -297,7 +290,6 @@ footer img {
   font-family: "Figtree", serif;
   font-size:1em;
   font-weight:700;
-  width:35vw;
   border:2px solid var(--highlight);
 }
 
