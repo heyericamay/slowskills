@@ -279,7 +279,7 @@ footer img {
 #generally > h3 {
   color:var(--highlight);
   font-weight:400;
-  width:100%;
+  text-align:left;
 }
 #generally > p {
   font-weight:1em;
@@ -312,9 +312,8 @@ footer img {
   font-size:1em;
   text-align: center;
   text-transform:uppercase;
-  color:var(--secondary);
+  color:var(--main-bg);
   margin:10px auto;
-  text-shadow: 1px 1px var(--main-bg);
 }
 
 .form button:hover {
@@ -332,6 +331,11 @@ form input, select, textarea {
   margin:0px 5px;
   padding:5px;
   font-family:'Source Code Pro', monospace;
+  min-width:15vw;
+}
+
+form option.active {
+  background-color: var(--secondary);
 }
 
 .boule {
@@ -347,6 +351,4 @@ form input, select, textarea {
   text-align:center;
   display:block;
   background:var(--main-bg);
-  position:relative;
-  top:0px;
 }
