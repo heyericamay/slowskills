@@ -252,18 +252,17 @@ footer img {
 }
 
 .course {
-  display:flex;
-  flex-flow: row wrap;
   width:80vw;
-  align-content: flex-start;
-  gap:4px;
-}
+ }
 
+ .course div {
+  display:inline;
+  margin:4px;
+ }
 
 
 #desc {
   max-width:45%;
-  margin:auto;
   text-align:left;
   font-size:1em;
   font-family:"Figtree", serif;
