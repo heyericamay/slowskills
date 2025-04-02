@@ -245,36 +245,30 @@ footer img {
 .tabcontent h3 {
   color:var(--main-bg);
 }
-.tabcontent #thumb {
+.course #thumb {
   width:20vw;
-  height:40vw;
-  background-position: center;
   background-size: 50vw;
-  float:left;
+  object-fit: cover;
 }
 
 .course {
   display:flex;
   flex-flow: row wrap;
   width:80vw;
+  align-content: flex-start;
+  gap:4px;
 }
 
+
+
 #desc {
-  width:45%;
+  max-width:45%;
   margin:auto;
   text-align:left;
   font-size:1em;
   font-family:"Figtree", serif;
-  padding:15px;
+  padding:20px;
   border:2px solid var(--main-bg);
-}
-
-#deet {
-  width:30%;
-  margin:20px;
-  padding:15px;
-  border:2px solid var(--main-bg);
-  color:var(--secondary);
 }
 
 #generally {
