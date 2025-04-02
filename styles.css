@@ -255,19 +255,20 @@ footer img {
   width:80vw;
  }
 
- .course div {
+#desc {
   display:inline;
   margin:4px;
- }
-
-
-#desc {
-  max-width:45%;
+  max-width:25vw;
   text-align:left;
   font-size:1em;
   font-family:"Figtree", serif;
   padding:20px;
   border:2px solid var(--main-bg);
+}
+#deet {
+  display:inline;
+  margin:4px;
+  max-width:20vw;
 }
 
 #generally {
