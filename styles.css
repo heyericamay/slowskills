@@ -247,8 +247,7 @@ footer img {
 }
 .course #thumb {
   width:20vw;
-  background-size: 50vw;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .course {
