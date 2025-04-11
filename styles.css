@@ -245,9 +245,9 @@ footer img {
 .tabcontent h3 {
   color:var(--main-bg);
 }
-.course #thumb {
-  width:20vw;
-  object-fit: contain;
+.course #thumb img {
+  max-width:20vw;
+  height:auto;
 }
 
 .course {
