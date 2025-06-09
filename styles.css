@@ -37,7 +37,7 @@ body {
   border-color: var(--secondary);
   border:2px solid var(--secondary);
   overflow:hidden;
-  margin:10vw auto;
+  margin:5vw auto;
   padding:1vw;
   display:flex;
   flex-flow:column, nowrap;
@@ -178,18 +178,106 @@ p {
   align-self: right;
 }
 footer {
-  background:#fff;
-  background-size: cover;
-  padding:1vw;
+  background:var(--secondary);
   width:100%;
-  margin-left:-1vw;
-  margin-bottom:-1vw;
-  display:flex;
-  flex-flow: nowrap;
-  justify-content:center;
+  bottom:0;
+  left:0;
 }
-footer img {
-  max-height:5vw;
+
+footer p {
+  font-family: "Figtree", serif;
+  font-size:0.8em;
+  color:var(--main-bg);
+  text-align:left;
+  margin:auto;
+}
+#footertxt {
+  width:70%;
+  float:left;
+  font-size:0.7em;
+  font-family: "Figtree", serif;
+  color:black;
+  text-align:left;
+  padding:2vw;
+}
+
+#footerejyc {
+  float:right;
+  font-size:0.7em;
+  font-family: "Figtree", serif;
+  color:black;
+}
+
+#footerejyc img {
+  max-height:8vw;
+  margin:0.5vw;
+}
+
+footer a {
+  color:var(--main-bg);
+  text-decoration:none;
+  font-weight:700;
+  border-bottom:1px solid var(--highlight);
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+footer a:hover {
+  background:var(--highlight);
+}
+
+#logosbar {
+  background:white;
+  width:100%;
+  height:5vw;
+  display:flex;
+  flex-flow:row nowrap;
+  align-items:center;
+  justify-content: center;
+}
+
+#logosbar img {
+  max-height:4vw;
+  margin:0.5vw;
+}
+
+section {
+  width:100%;
+  height:100vh;
+}
+
+.nav {
+  text-align:center;
+  position:sticky;
+  top:0;
+  display:flex;
+  flex-flow:row nowrap;
+  justify-content:center;
+  align-items:center;}
+.nav a {
+  font-size:1.5em;
+  padding:4px 12px;
+  font-family: "Figtree", serif;
+  border:1px solid var(--secondary);
+  border-radius:100%;
+  text-decoration: none;
+  color:var(--secondary);
+  -webkit-transition:ease-in-out 0.3s;
+  transition:ease-in-out 0.3s;
+  margin:2px 4px;
+}
+.nav a:hover {
+  background-color: var(--highlight);
+  color:var(--main-bg);
+}
+
+.nav a:active {
+  background-color: var(--secondary);
+  color:var(--main-bg);
+}
+
+.nav a:visited {
+  text-decoration: wavy underline;
 }
 
 /*workshops page*/
