@@ -593,7 +593,7 @@ form option.active {
     padding:2vw;
   }
   .facilitators, #info, #side { 
-    display:block;
+    display:block !important;
     width:100%;
   }
 }
