@@ -3,7 +3,10 @@
   --secondary:#91D4CC;
   --highlight:#F0CF65;
 }
-
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 /* Chrome, Edge and Safari */
 ::-webkit-scrollbar {
   height: 15px;
@@ -302,7 +305,7 @@ section {
   #about {
     flex-flow: row wrap;
   }
-   .abtdesc {
+   .abtdesc, .abt2{
     max-width: 80%;
   }
 }
@@ -604,7 +607,7 @@ grid-template-columns: repeat(4, 1fr);
 grid-template-rows: repeat(7, 1fr);
 grid-column-gap: 0.5vw;
 grid-row-gap: 0.5vw;
-padding:1vw;
+padding:1vw;  
 }
 
 
