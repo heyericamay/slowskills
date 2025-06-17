@@ -3,10 +3,7 @@
   --secondary:#91D4CC;
   --highlight:#F0CF65;
 }
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
+
 /* Chrome, Edge and Safari */
 ::-webkit-scrollbar {
   height: 15px;
