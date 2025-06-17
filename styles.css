@@ -592,8 +592,9 @@ form option.active {
     font-size:1em;
     padding:2vw;
   }
-  .facilitators h3, #side, #info {
-    grid-column: span 5 / span 5;
+  .facilitators, #info, #side { 
+    display:block;
+    width:100%;
   }
 }
 
