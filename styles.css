@@ -20,28 +20,31 @@
   background-color:var(--highlight);
   border: 2px solid var(--secondary);
 }
-
+html{
+  scroll-behavior: smooth;
+}
 
 body { 
   background-color:var(--main-bg);
   overflow-x: hidden;
-  scrollbar-width: thin;
-  scrollbar-color: #05613D #91D4CC;
+  overflow-y: auto;
+  padding-bottom:10%;
 }
 
 .header {
   width:87.6vw;
-  height:27.8;
+  height:28vw;
   background-color:var(--main-bg);
   border-radius:5px;
   border-color: var(--secondary);
   border:2px solid var(--secondary);
   overflow:hidden;
-  margin:5vw auto;
+  margin:2vw auto;
   padding:1vw;
   display:flex;
-  flex-flow:column, nowrap;
+  flex-flow:row nowrap;
 }
+
 
 #maincell {
   width:32vw;
@@ -68,7 +71,7 @@ body {
   text-align:center;
   color: var(--secondary);
   line-height:2vw;
-  padding:1.5vw;
+  padding:1.5vw 2vw;
   margin:5px;
   border:2px solid var(--secondary);
   border-radius:100%;
@@ -82,7 +85,7 @@ body {
   text-align:right;
   color:var(--secondary);
   position:relative;
-  top:-4.5vw;
+  top:-5vw;
   padding:4px;
 }
 
@@ -94,6 +97,33 @@ body {
   background-size:1.4vw 1.4vw;
   background-position:0.7vw 0.7vw;
   border:2px solid var(--secondary);
+}
+
+@media (max-width: 800px) {
+  .header {
+    flex-flow: column nowrap;
+    height: 24vw;
+    overflow:hidden;
+  }
+  #maincell,#gencell {
+    width: 87vw;
+    height:17.5vw;
+  }
+  #maincell h1 {
+    text-align: center;
+    font-size:7vw;
+  }
+  #maincell h2 {
+    font-size:3vw;
+    text-align: center;
+   }
+  #maincell h3 {
+    top:-7vw;
+    font-size:1vw;
+  }
+  #gencell:nth-of-type(2) {
+    display:none;
+  }
 }
 
 
@@ -148,69 +178,24 @@ p {
     font-style: normal;
     font-weight: 700;
   }
-.purpose {
-  width:100vw;
-  height:100vh;
-  overflow-y:auto;
-  margin-left:-1vw;
-  background-image: linear-gradient(transparent 45%, var(--secondary) 45% 55%, transparent 50%), linear-gradient(90deg, transparent 45%, var(--secondary) 45% 55%, transparent 50%);
-  background-size:1vw 1vw;
-  background-position:0.5vw 0.5vw;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content:space-around;   
-  border-right:1px solid var(--secondary);
-  border-top:2px solid var(--secondary);
-  border-left:1px solid var(--secondary);
-  border-bottom:2px solid var(--secondary);    
-}
-.purpose > p {
-  width:40%;
-  padding:1vw;
-  top:0;
-  margin:1vw;
-  font-family:figtree;
-  font-weight:400;
-  font-size:3vh;
-  text-align: right;
-  background:var(--secondary);
-  color:var(--main-bg);
-  align-self: right;
-}
+
 footer {
   background:var(--secondary);
   width:100%;
   bottom:0;
   left:0;
+  position:fixed;
+  display:flex;
+  flex-flow:row nowrap;
 }
 
-footer p {
-  font-family: "Figtree", serif;
-  font-size:0.8em;
-  color:var(--main-bg);
-  text-align:left;
-  margin:auto;
-}
 #footertxt {
   width:70%;
-  float:left;
-  font-size:0.7em;
+  font-size:0.8em;
   font-family: "Figtree", serif;
   color:black;
   text-align:left;
   padding:2vw;
-}
-
-#footerejyc {
-  float:right;
-  font-size:0.7em;
-  font-family: "Figtree", serif;
-  color:black;
-}
-
-#footerejyc img {
-  max-height:8vw;
-  margin:0.5vw;
 }
 
 footer a {
@@ -226,10 +211,10 @@ footer a:hover {
   background:var(--highlight);
 }
 
+
 #logosbar {
   background:white;
-  width:100%;
-  height:5vw;
+  width:30%;
   display:flex;
   flex-flow:row nowrap;
   align-items:center;
@@ -242,8 +227,67 @@ footer a:hover {
 }
 
 section {
-  width:100%;
-  height:100vh;
+  width:90%;
+  padding:5%;
+  height:auto; 
+}
+
+#about {
+  display:flex;
+  justify-content: center;
+  flex-flow:row nowrap;
+  gap:1vw;
+}
+
+
+
+.abtdesc, .abt2 {
+  padding:5vw;
+  font-family: "Figtree", serif;
+  background: #fffbf2;
+  max-width:40%;
+}
+#abtpic {
+  width:20%;
+  background-image:url(alejo-reinoso--IlmDnJg5cg-unsplash.jpg);
+  background-size:cover;
+  padding:0.5vw;
+}
+
+.abtstat {
+  padding:5px;
+  font-family: "Figtree", serif;
+  font-size:12px;
+  background: var(--highlight);
+  color:var(--main-bg);
+  max-width:10%;
+  height:fit-content;
+  text-align:center;
+}
+.abtstat span {
+  font-size:24px;
+  text-align:center;
+  display:block;
+  font-family:"Source Code Pro", monospace;
+}
+
+@media (max-width: 800px) {
+  #about {
+    flex-flow: row wrap;
+  }
+   .abtdesc {
+    max-width: 80%;
+  }
+}
+
+
+
+#sourcecode {
+  font-family: 'Source Code Pro', monospace;
+  font-weight:700;
+  font-size:1em;
+  color:var(--secondary);
+  margin:0px 2px;
 }
 
 .nav {
@@ -253,7 +297,9 @@ section {
   display:flex;
   flex-flow:row nowrap;
   justify-content:center;
-  align-items:center;}
+  align-items:center;
+}
+
 .nav a {
   font-size:1.5em;
   padding:4px 12px;
@@ -265,6 +311,7 @@ section {
   -webkit-transition:ease-in-out 0.3s;
   transition:ease-in-out 0.3s;
   margin:2px 4px;
+  background-color: var(--main-bg);
 }
 .nav a:hover {
   background-color: var(--highlight);
@@ -279,6 +326,18 @@ section {
 .nav a:visited {
   text-decoration: wavy underline;
 }
+
+#back {
+  position:absolute;
+  top: 0.5vw;
+  left: 0.5vw;
+  color:white;
+}
+#back a {
+  color:white;
+  text-decoration: none;
+}
+
 
 /*workshops page*/
  /* Style the tab */
@@ -435,4 +494,65 @@ form option.active {
   text-align:center;
   display:block;
   background:var(--main-bg);
+}
+
+.gform a {
+  color:var(--main-bg);
+  text-decoration:none;
+  font-weight:700;
+  border-bottom:1px solid var(--highlight);
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+.gform a:hover {
+  background:var(--highlight);
+}
+
+.gform {
+  width:80%;
+  height:500px;
+  padding:1vw;
+  margin:auto;
+  background:whitesmoke;
+  font-size:0.8em !important;
+  display:flex;
+  flex-flow:row wrap;
+}
+
+.gform p {
+  font-family: "Figtree", serif;
+  color:#000;
+  max-width:40%;
+  height:80%;
+  margin:0px 5px;
+  padding:5%;
+  font-size:1.2em;
+  background:white;
+}
+
+.gform iframe {
+  font-size:0.8em !important;
+  font-family: "Figtree", serif;
+  max-width:45%;
+  padding:1vw;
+}
+
+@media screen and (max-width: 800px) {
+  .gform {
+    flex-flow: column nowrap;
+    width:90%;
+    height:100% !important;
+  }
+  .gform iframe {
+    max-width:100%;
+    height:100%;
+    font-size:0.8em !important;
+  }
+  .gform p {
+    max-width:100%;
+    font-size:1em;
+    padding:2vw;
+  }
+  
 }

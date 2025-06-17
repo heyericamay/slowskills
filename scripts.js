@@ -1,3 +1,4 @@
+
 function openSession(evt, sessionName) {
     // Declare all variables
     var i, tabcontent, tablinks;
