@@ -228,11 +228,11 @@ footer a:hover {
 
 section {
   width:90%;
-  padding:5%;
   height:auto; 
 }
 
 #about {
+  padding:5%;
   display:flex;
   justify-content: center;
   flex-flow:row nowrap;
@@ -241,12 +241,39 @@ section {
 
 
 
-.abtdesc, .abt2 {
+.abtdesc {
   padding:5vw;
   font-family: "Figtree", serif;
   background: #fffbf2;
   max-width:40%;
 }
+
+.abt2 {
+  padding:2vw;
+  font-family: "Figtree", serif;
+  background: var(--secondary);
+  color:var(--main-bg);
+  font-size:0.8em;
+  text-align:center;
+  max-width:10%;
+}
+
+.abt2 a { 
+  color:var(--main-bg);
+  text-decoration:none;
+  font-weight:700;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+.abt2 a:hover {
+  background:var(--highlight);
+}
+.abt2 span {
+  font-size:0.7em;
+  font-family: "Figtree", serif;
+  text-align:left !important;
+}
+
 #abtpic {
   width:20%;
   background-image:url(alejo-reinoso--IlmDnJg5cg-unsplash.jpg);
@@ -332,6 +359,7 @@ section {
   top: 0.5vw;
   left: 0.5vw;
   color:white;
+  font-family:"source Code Pro", monospace;
 }
 #back a {
   color:white;
@@ -520,6 +548,15 @@ form option.active {
   flex-flow:row wrap;
 }
 
+.gform span {
+  font-family: "Figtree", serif;
+  color:var(--main-bg);
+  font-size:1.5em;
+  text-align:left;
+  width:100%;
+  display:block;
+  margin-bottom: 10px;;
+}
 .gform p {
   font-family: "Figtree", serif;
   color:#000;
@@ -527,12 +564,13 @@ form option.active {
   height:80%;
   margin:0px 5px;
   padding:5%;
-  font-size:1.2em;
+  font-size:1em;
+  line-height:1.5em;
   background:white;
 }
 
 .gform iframe {
-  font-size:0.8em !important;
+  font-size:1em !important;
   font-family: "Figtree", serif;
   max-width:45%;
   padding:1vw;
@@ -555,4 +593,51 @@ form option.active {
     padding:2vw;
   }
   
+}
+
+.facilitators {
+  width:80%;
+  margin:auto;
+  background: #fffbf2;
+  display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(7, 1fr);
+grid-column-gap: 0.5vw;
+grid-row-gap: 0.5vw;
+padding:1vw;
+}
+
+
+.facilitators h3 {
+  color:var(--main-bg);
+  font-weight:400;
+  font-size:1.8em;
+  text-align:center;
+  grid-area: 1 / 1 / 2 / 5;
+  line-height: 100%;
+}
+
+#side { 
+  padding:1.5vw;
+  font-family: "Figtree", serif;
+  font-size:0.8em;
+  line-height:1.5em;
+  background: whitesmoke;
+  text-align:left;
+  grid-area: 2 / 1 / 8 / 2;
+ }
+
+#info {
+  grid-area: 2 / 2 / 8 / 5;
+  font-family: "Figtree", serif;
+  font-size:0.8em;
+  line-height:1.5em;
+  padding:1vw;
+}
+#info h4 {
+  color:var(--main-bg);
+  font-weight:400;
+  font-size:1.2em;
+  text-align:left;
+  margin-bottom:10px;
 }
