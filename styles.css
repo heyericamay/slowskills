@@ -232,7 +232,7 @@ section {
 }
 
 #about {
-  padding:5%;
+  padding:2vw 4vw;
   display:flex;
   justify-content: center;
   flex-flow:row nowrap;
@@ -244,34 +244,33 @@ section {
 .abtdesc {
   padding:5vw;
   font-family: "Figtree", serif;
+  font-size:0.9em;
+  line-height:1.2em;
   background: #fffbf2;
   max-width:40%;
 }
-
-.abt2 {
-  padding:2vw;
+.abtdesc a {
+  font-size:1em;
+  padding:4px 12px;
   font-family: "Figtree", serif;
-  background: var(--secondary);
+  text-decoration: none;
   color:var(--main-bg);
-  font-size:0.8em;
-  text-align:center;
-  max-width:10%;
+  -webkit-transition:ease-in-out 0.3s;
+  transition:ease-in-out 0.3s;
+  background-color: var(--secondary);
+}
+.abtdesc a:hover {
+  background-color: var(--highlight);
+  color:var(--main-bg);
 }
 
-.abt2 a { 
+.abtdesc a:active {
+  background-color: var(--secondary);
   color:var(--main-bg);
-  text-decoration:none;
-  font-weight:700;
-  -webkit-transition: ease-in-out 0.3s;
-  transition: ease-in-out 0.3s;
 }
-.abt2 a:hover {
-  background:var(--highlight);
-}
-.abt2 span {
-  font-size:0.7em;
-  font-family: "Figtree", serif;
-  text-align:left !important;
+
+.abtdesc a:visited {
+  text-decoration: wavy underline;
 }
 
 #abtpic {
@@ -281,29 +280,16 @@ section {
   padding:0.5vw;
 }
 
-.abtstat {
-  padding:5px;
-  font-family: "Figtree", serif;
-  font-size:12px;
-  background: var(--highlight);
-  color:var(--main-bg);
-  max-width:10%;
-  height:fit-content;
-  text-align:center;
-}
-.abtstat span {
-  font-size:24px;
-  text-align:center;
-  display:block;
-  font-family:"Source Code Pro", monospace;
-}
 
 @media (max-width: 800px) {
   #about {
     flex-flow: row wrap;
   }
    .abtdesc, .abt2{
-    max-width: 80%;
+    max-width: 87.6vw;
+  }
+  #abtpic {
+    display:none;
   }
 }
 
@@ -318,27 +304,24 @@ section {
 }
 
 .nav {
+  padding:0vw 5vw;
   text-align:center;
-  position:sticky;
-  top:0;
   display:flex;
   flex-flow:row nowrap;
-  justify-content:center;
+  justify-content:flex-start;
   align-items:center;
 }
 
 .nav a {
-  font-size:1.5em;
+  font-size:1em;
   padding:4px 12px;
   font-family: "Figtree", serif;
-  border:1px solid var(--secondary);
-  border-radius:100%;
   text-decoration: none;
-  color:var(--secondary);
+  color:var(--main-bg);
   -webkit-transition:ease-in-out 0.3s;
   transition:ease-in-out 0.3s;
   margin:2px 4px;
-  background-color: var(--main-bg);
+  background-color: var(--secondary);
 }
 .nav a:hover {
   background-color: var(--highlight);
@@ -584,7 +567,7 @@ form option.active {
   }
   .gform iframe {
     max-width:100%;
-    height:100%;
+    height:100% !important;
     font-size:0.8em !important;
   }
   .gform p {
@@ -596,6 +579,7 @@ form option.active {
     display:block !important;
     width:100%;
   }
+  
 }
 
 .facilitators {
@@ -646,3 +630,4 @@ padding:1vw;
   text-align:left;
   margin-bottom:10px;
 }
+
